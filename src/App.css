@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li {
+  color: #a3543d;
+  font-family: "Syne", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+small {
+  color: #a3543d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.current-date {
+  font-size: 24px;
+  color: #a3543d;
 }
 
-.App-link {
-  color: #61dafb;
+.current-location {
+  background-color: #a3543d;
+  border: 1px solid #d49a89;
+  border-radius: 3px;
+  color: #f7d1ba;
+  font-family: "Syne", sans-serif;
+  padding: 3px;
+  transition: all 200ms ease;
+}
+.current-location:hover {
+  background-color: #d49a89;
+  color: #a3543d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.date-and-condition {
+  position: relative;
+  bottom: 20px;
+  margin-left: 2px;
+}
+
+.weather-app-wrapper {
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.weather-app {
+  background-color: #f7d1ba;
+  border: 1px solid #d49a89;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.weather-details {
+  position: relative;
+  top: 42px;
+}
+
+#city {
+  color: #557571;
+  font-family: "Rokkitt", serif;
+  font-size: 60px;
+  padding: 10px 0px 0px 0px;
+  text-align: left;
+}
+
+#city-input {
+  background-color: #d6ddd8;
+  border: 1px solid #557571;
+  color: #557571;
+  padding: 2px;
+}
+
+#submit-button {
+  background-color: #557571;
+  border: 1px solid #d6ddd8;
+  border-radius: 3px;
+  color: #d6ddd8;
+  font-family: "Syne", sans-serif;
+  padding: 3px;
+  transition: all 200ms ease;
+}
+
+#submit-button:hover {
+  background-color: #d6ddd8;
+  color: #557571;
+}
+
+#temp {
+  color: #557571;
+  font-size: 60px;
+  font-weight: 200px;
+}
+
+#units {
+  color: #557571;
+  font-size: 24px;
+  line-height: 80px;
+  position: relative;
+  bottom: 30px;
+}
+
+#weather-icon {
+  margin: 0px 5px 40px 0px;
+  height: 150px;
+  width: 150px;
+}
+
+::placeholder {
+  color: #557571;
+  font-family: "Syne", sans-serif;
 }

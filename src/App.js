@@ -1,24 +1,19 @@
+import React from "react";
 import "./App.css";
+import Search from "./Search";
+import Currentweather from "./Currentweather";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="weather-app">
+          <Search />
+          <Currentweather />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;
