@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 
 export default function Currentweather() {
   let weatherData = {
@@ -33,13 +32,8 @@ export default function Currentweather() {
             {weatherData.temperature}
           </span>
           <span id="units">
-            <a href="#" id="fahrenheit-link">
-              °F
-            </a>{" "}
-            |
-            <a href="#" id="celcius-link">
-              °C
-            </a>
+            <button id="fahrenheit-link">°F</button> |
+            <button id="celcius-link">°C</button>
           </span>
         </div>
 
