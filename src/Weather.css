@@ -32,6 +32,7 @@ small {
   padding: 3px;
   transition: all 200ms ease;
 }
+
 .current-location:hover {
   background-color: #d49a89;
   color: #a3543d;
@@ -41,18 +42,6 @@ small {
   position: relative;
   bottom: 20px;
   margin-left: 2px;
-}
-
-.weather-app-wrapper {
-  margin: 30px auto;
-  max-width: 600px;
-}
-
-.weather-app {
-  background-color: #f7d1ba;
-  border: 1px solid #d49a89;
-  border-radius: 4px;
-  padding: 20px;
 }
 
 .weather-details {

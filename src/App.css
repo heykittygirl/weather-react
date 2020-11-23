@@ -1,1 +1,11 @@
+.App {
+  max-width: 750px;
+  margin: 30px auto;
+}
 
+.weather-app {
+  background-color: #f7d1ba;
+  border: 1px solid #d49a89;
+  border-radius: 4px;
+  padding: 20px;
+}
