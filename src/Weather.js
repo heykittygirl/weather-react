@@ -1,6 +1,7 @@
 import React from "react";
 import "./Weather.css";
 import Search from "./Search";
+import Footer from "./Footer";
 
 export default function Weather() {
   return (
@@ -45,6 +46,7 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
