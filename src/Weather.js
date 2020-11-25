@@ -18,7 +18,7 @@ export default function Weather(props) {
       condition: response.data.weather[0].main,
       description: response.data.weather[0].main.description,
       icon: response.data.weather[0].icon,
-      iconUrl: `http://openweathermap.org/img/wn/${weatherData.icon}@2x.png`,
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
