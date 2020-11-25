@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -18,7 +19,6 @@ export default function Weather(props) {
       condition: response.data.weather[0].main,
       description: response.data.weather[0].main.description,
       icon: response.data.weather[0].icon,
-      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
@@ -59,6 +59,7 @@ export default function Weather(props) {
               <button className="current-location">Current Location</button>
             </form>
             <WeatherInfo data={weatherData} />
+            <WeatherForecast city={weatherData.city} />
           </div>
           <Footer />
         </div>
