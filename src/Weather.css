@@ -4,7 +4,7 @@ ul {
 }
 
 li {
-  color: #a3543d;
+  color: #9a562a;
   font-family: "Syne", sans-serif;
   font-size: 20px;
   font-weight: 100;
@@ -15,27 +15,27 @@ li {
 }
 
 small {
-  color: #a3543d;
+  color: #9a562a;
 }
 
 .current-date {
   font-size: 24px;
-  color: #a3543d;
+  color: #9a562a;
 }
 
 .current-location {
-  background-color: #a3543d;
-  border: 1px solid #d49a89;
+  background-color: #9a562a;
+  border: 1px solid #9a562a;
   border-radius: 3px;
-  color: #f7d1ba;
+  color: #eae2d9;
   font-family: "Syne", sans-serif;
   padding: 3px;
   transition: all 200ms ease;
 }
 
 .current-location:hover {
-  background-color: #d49a89;
-  color: #a3543d;
+  background-color: #cda68c;
+  color: #9a562a;
 }
 
 .date-and-condition {
@@ -50,9 +50,9 @@ small {
 }
 
 #celcius-link {
-  background-color: #f7d1ba;
+  background-color: #eae2d9;
   border: none;
-  color: #557571;
+  color: #2f5056;
   transition: all 200ms ease;
 }
 
@@ -61,7 +61,7 @@ small {
 }
 
 #city {
-  color: #557571;
+  color: #2f5056;
   font-family: "Rokkitt", serif;
   font-size: 60px;
   padding: 10px 0px 0px 0px;
@@ -70,13 +70,13 @@ small {
 
 #city-input {
   background-color: #d6ddd8;
-  border: 1px solid #557571;
-  color: #557571;
+  border: 1px solid #2f5056;
+  color: #2f5056;
   padding: 2px;
 }
 
 #fahrenheit-link {
-  background-color: #f7d1ba;
+  background-color: #eae2d9;
   border: none;
   color: #557571;
   transition: all 200ms ease;
@@ -87,28 +87,28 @@ small {
 }
 
 #submit-button {
-  background-color: #557571;
-  border: 1px solid #d6ddd8;
+  background-color: #2f5056;
+  border: 1px solid #2f5056;
   border-radius: 3px;
-  color: #d6ddd8;
+  color: #eae2d9;
   font-family: "Syne", sans-serif;
   padding: 3px;
   transition: all 200ms ease;
 }
 
 #submit-button:hover {
-  background-color: #d6ddd8;
-  color: #557571;
+  background-color: #c2c8c6;
+  color: #2f5056;
 }
 
 #temp {
-  color: #557571;
+  color: #2f5056;
   font-size: 60px;
   font-weight: 200px;
 }
 
 #units {
-  color: #557571;
+  color: #2f5056;
   font-size: 24px;
   line-height: 80px;
   position: relative;
@@ -122,6 +122,6 @@ small {
 }
 
 ::placeholder {
-  color: #557571;
+  color: #2f5056;
   font-family: "Syne", sans-serif;
 }
