@@ -1,0 +1,41 @@
+#celsius-link {
+  background-color: #eae2d9;
+  border: none;
+  color: #2f5056;
+  transition: all 200ms ease;
+}
+
+#celsius-link:hover {
+  color: #6e9993;
+}
+
+#fahrenheit-link {
+  background-color: #eae2d9;
+  border: none;
+  color: #2f5056;
+  transition: all 200ms ease;
+}
+
+#fahrenheit-link:hover {
+  color: #6e9993;
+}
+
+#temp {
+  color: #2f5056;
+  font-size: 60px;
+  font-weight: 200px;
+}
+
+#units {
+  color: #2f5056;
+  font-size: 22px;
+  line-height: 78px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 30px;
+}
+
+::placeholder {
+  color: #2f5056;
+  font-family: "Syne", sans-serif;
+}

@@ -1,8 +1,18 @@
+.degrees {
+  color: #2f5056;
+  font-weight: bold;
+}
+
+.hours {
+  color: #9a562a;
+}
+
 .WeatherForecast {
   text-align: center;
+  margin: 20px;
 }
 
 .WeatherForecast canvas {
   display: block;
-  margin: 5px 0;
+  margin: 10px auto;
 }
